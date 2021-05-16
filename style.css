@@ -1,0 +1,26 @@
+.reveal-controls {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-bottom: .5rem;
+	margin-left: .5rem;
+}
+body {
+	margin: 0;
+}
+canvas {
+	display: block;
+}
+.controls {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 1rem;
+	background-color: #FEF;
+}
+input[type=range] {
+	background-color: #DFD;
+}

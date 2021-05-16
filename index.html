@@ -1,0 +1,30 @@
+<!Doctype html>
+<html lang='en'>
+<head>
+	<meta charset='utf-8'/>
+	<meta name='viewport' content='initial-scale=1, width=device-width'/>
+	<title>Sketch</title>
+	<link rel='stylesheet' href='style.css'/>
+</head>
+<body>
+	<canvas id='sketchpad'></canvas>
+	<input type='button' value='Show Menu' class='reveal-controls'/>
+	<section class='controls' style='display: none;'>
+		<div>
+			<input value='Hide' class='hide-button' type='button'/>
+		</div>
+		<div>
+			<label>Color <input class='color-picker' type='color'/></label>
+			<label>Width <input type='range' class='size-picker' min='1' max='50' value='1' /></label>
+			<input class='undo' value='Undo' type='button'/>
+			<input class='redo' value='Redo' type='button'/>
+		</div>
+		<div>
+			<input value='Save' class='save' type='button'/>
+		</div>
+	</section>
+	<script src='jquery.js'></script>
+	<script src='sketchpad.js'></script>
+	<script src='script.js'></script>
+</body>
+</html>
